@@ -15,12 +15,12 @@
       <section>
           
        
-        <form action="https://formspree.io/anioua@gmail.com" method="POST">
+        <form action="#" method="POST" autocomplete="on">
         
         <label for="article1">Customer Info:<article id="article1">
       
            <label for="name">Name: <input type="text" name="name" id="name" placeholder="Enter your name" autofocus required></label> <br> <br>
-           <label for="phone">Telephone: <input type="tel" name="phone" id="phone" placeholder="Pattern 1-234-567-8910" required></label> <br> <br>   
+           <label for="phone">Telephone: <input type="tel" name="phone" id="phone" placeholder="Pattern 1-234-567-8910" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" required></label> <br> <br>   
            <label for="email">Email address: <input type="email" name="email" id="email" placeholder="Enter your email address" required multiple></label> <br> <br>
            
             </article></label>
@@ -36,13 +36,7 @@
 		    <option>The music of Erich Zann</option>		
 	       </select>
 	       
-	       <label for="quantity">Quantity (Maximum 5): <select name="quantity" id="quantity">
-		    <option>1</option>
-		    <option>2</option>
-		    <option>3</option>
-		    <option>4</option>
-		    <option>5</option>		
-            </select></label> <br> <br>
+	       <label for="quantity">Quantity (Maximum 5): <input type="number" name="quantity" id="quantity" min="1" max="5"></label> <br>
         
                </article></label>
         
