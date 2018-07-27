@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz 2</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <header>
+       <h1>A Simple Form</h1>
+       <h2>Form Fundamentals</h2> 
+    </header>
+    
+      <section>
+      
+          <label for="article1">Customer Info:</label><article id="article1">
+       
+       
+        <form action="https://formspree.io/anioua@gmail.com" method="POST">
+      
+           <label for="name">Name: <input type="text" name="name" id="name" placeholder="Enter your name" autofocus required></label> <br> <br>
+           <label for="phone">Telephone: <input type="tel" name="phone" id="phone" placeholder="Pattern 1-234-567-8910" required></label> <br> <br>   
+           <label for="email">Email address: <input type="email" name="email" id="email" placeholder="Enter your email address" required multiple></label> <br> <br>
+           
+            </article>
+            
+            
+           <label for="article2">Books:</label><article id="article2">
+           
+           <select name="books">
+		    <option>The Call of Cthulhu</option>
+		    <option>The rats in the Walls</option>
+		    <option>Dagon</option>
+		    <option>The Dunwich Horror</option>
+		    <option>The music of Erich Zann</option>		
+	       </select>
+	       
+	       <label for="quantity">Quantity (Maximum 5): <select name="quantity">
+		    <option>1</option>
+		    <option>2</option>
+		    <option>3</option>
+		    <option>4</option>
+		    <option>5</option>		
+            </select></label> <br> <br>
+        
+              </article>
+        
+            <input type="submit" value="Submit">
+        </form>
+        
+    </section>
+    
+</body>
+</html>

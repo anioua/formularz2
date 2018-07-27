@@ -1,0 +1,30 @@
+h1 {
+    font-size: 18px;
+    color: navy;
+}
+
+h2 {
+    font-size: 14px;
+    font-style: italic;
+    color: mediumpurple;  
+}
+
+article {
+    width: 600px;
+    border: 2px solid grey;
+    margin-bottom: 12px;
+    border-radius: 2px;
+    padding: 18px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[name="books"],
+select {
+    width: 300px; 
+}
+
+select[name="quantity"] {
+    width: 150px;
+}
