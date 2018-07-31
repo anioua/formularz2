@@ -9,7 +9,7 @@ h2 {
     color: mediumpurple;  
 }
 
-article {
+fieldset {
     width: 600px;
     border: 2px solid grey;
     margin-bottom: 12px;
@@ -26,5 +26,5 @@ select {
 }
 
 input[type="number"] {
-    width: 130px;
+    width: 90px;
 }

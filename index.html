@@ -4,46 +4,50 @@
     <meta charset="UTF-8">
     <title>Formularz 2</title>
     <link rel="stylesheet" href="css/style.css">
-    
+
 </head>
+
 <body>
     <header>
-       <h1>A Simple Form</h1>
-       <h2>Form Fundamentals</h2> 
+        <h1>A Simple Form</h1>
+        <h2>Form Fundamentals</h2>
     </header>
-    
-      <section>
-          
-       
+
+    <section>
+
+
         <form action="#" method="POST" autocomplete="on">
-        
-        <label for="article1">Customer Info:<article id="article1">
-      
-           <label for="name">Name: <input type="text" name="name" id="name" placeholder="Enter your name" autofocus required></label> <br> <br>
-           <label for="phone">Telephone: <input type="tel" name="phone" id="phone" placeholder="Pattern 1-234-567-8910" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" required></label> <br> <br>   
-           <label for="email">Email address: <input type="email" name="email" id="email" placeholder="Enter your email address" required multiple></label> <br> <br>
-           
-            </article></label>
-            
-            
-           <label for="article2">Books:<article id="article2">
-           
-           <select name="books">
-		    <option>The Call of Cthulhu</option>
-		    <option>The rats in the Walls</option>
-		    <option>Dagon</option>
-		    <option>The Dunwich Horror</option>
-		    <option>The music of Erich Zann</option>		
-	       </select>
-	       
-	       <label for="quantity">Quantity (Maximum 5): <input type="number" name="quantity" id="quantity" min="1" max="5"></label> <br>
-        
-               </article></label>
-        
+
+
+            <fieldset>
+                <legend>Customer Info</legend>
+                
+                <label>Name: <input type="text" name="name" id="name" placeholder="Enter your name" autofocus required></label> <br> <br>
+                <label>Telephone: <input type="tel" name="phone" id="phone" placeholder="Pattern 1-234-567-8910" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" required></label> <br> <br>
+                <label>Email address: <input type="email" name="email" id="email" placeholder="Enter your email address" required multiple></label> <br> <br>
+            </fieldset>
+
+
+
+            <fieldset> 
+                <legend>Books</legend>
+
+                <select name="books">
+		            <option>The Call of Cthulhu</option>
+		            <option>The rats in the Walls</option>
+		            <option>Dagon</option>
+		            <option>The Dunwich Horror</option>
+		            <option>The music of Erich Zann</option>		
+	           </select>
+
+                <label for="quantity">Quantity (Maximum 5): <input type="number" name="quantity" id="quantity" min="1" max="5"></label> <br>
+
+            </fieldset>
+
             <input type="submit" value="Submit">
         </form>
-        
+
     </section>
-    
+
 </body>
 </html>
